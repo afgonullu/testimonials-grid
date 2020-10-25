@@ -11,6 +11,7 @@ body {
   font-weight: 400;
   color: var(--light-grayish-blue);
   box-sizing: border-box;
+  background: var(--light-grayish-blue);
 }
 
 img {
@@ -21,6 +22,7 @@ img {
 
 .container {
   display: flex;
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
 }
